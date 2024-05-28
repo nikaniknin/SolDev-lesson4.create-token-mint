@@ -1,5 +1,6 @@
 
 //npm i @solana/web3.js @solana/spl-token @solana-developers/helpers esrun
+//npm i @metaplex-foundation/mpl-token-metadata@2
 
 //Instructions:
 //npm init -y
