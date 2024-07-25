@@ -27,13 +27,20 @@ const TOKEN_METADATA_PROGRAM_ID = new PublicKey(
 
 // Subtitute in your token mint account -- EYFuC4h6JF1zHKrywzdat4YwsrEkQo9osLDQ4u3EwL3N
 
-const tokenMintAccount = new PublicKey("EYFuC4h6JF1zHKrywzdat4YwsrEkQo9osLDQ4u3EwL3N");
+const tokenMintAccount = new PublicKey("8Ash1GCo74a52FpUJ7FcBcZ4iAPWo8PGmDni26K6X6nU");
+//  E9411KyLn7hwX2XvPZVaTV8RaVCNDFd18dEnuRCH7Fnu
 
 const metadataData = {
-    name: "Solana Training Token",
-    symbol: "TRAINING",
+    name: "Nika SolanaTT5",
+    symbol: "NikaT5",
     // Arweave / IPFS / Pinata etc link using metaplex standard for off-chain data
-    uri: "https://arweave.net/1234",
+    uri: "https://arweave.net/gpEf2lGQlFc7gv5DpHzxDSTUXJdGAJIN7tqnha-E-vE",
+    //"https://bafybeidfm65jzvz4zeesxp6ybinkitvpd27klk6yspstrtw5fuy5w27lkq.ipfs.w3s.link/metadata.json",
+    //"https://arweave.net/LIzuZng2eQSkc2psPpoX646lVARGOmc-9kEARXhypKA"
+    //"https://arweave.net/1234"
+    //"https://arweave.net/Vr9tRQ3IBTa32gDJDFDKLCbmE3x1_5CQpNTxXF7ABeg/gallery#b5604114-61c0-43a8-97f0-f77732dfaa46"
+    //https://v2.akord.com/public/vaults/active/Vr9tRQ3IBTa32gDJDFDKLCbmE3x1_5CQpNTxXF7ABeg/gallery#b5604114-61c0-43a8-97f0-f77732dfaa46
+    //https://v2.akord.com/public/vaults/active/Vr9tRQ3IBTa32gDJDFDKLCbmE3x1_5CQpNTxXF7ABeg/gallery#777ae329-5321-4de3-9df1-2f570627b563",
     sellerFeeBasisPoints: 0,
     creators: null,
     collection: null,

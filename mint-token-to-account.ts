@@ -14,12 +14,12 @@ const user = getKeypairFromEnvironment("SECRET_KEY");
 
 // Subtitute in your token mint account from create-token-mint.ts
 const tokenMintAccount = new PublicKey(
-    "EYFuC4h6JF1zHKrywzdat4YwsrEkQo9osLDQ4u3EwL3N"
+    "8Ash1GCo74a52FpUJ7FcBcZ4iAPWo8PGmDni26K6X6nU"
 );
 
 // Substitute in your own, or a friend's token account address, based on the previous step.
 const recipientAssociatedTokenAccount = new PublicKey(
-    "5QUVVn7GNADg8mJGDHa29kxPXyXRUV66D33cWW56m2iM"
+    "9cqmSqc3GQq36go48xZ9S9Gx8JBDgN6UKxf7iapR412u"
 );
 
 const transactionSignature = await mintTo(

@@ -11,6 +11,8 @@
 
 //Running code
 //npx esrun transfer.ts (destination wallet address)
+//npx esrun create-token-mint.ts 
+
 
 import { createMint } from "@solana/spl-token";
 import "dotenv/config";

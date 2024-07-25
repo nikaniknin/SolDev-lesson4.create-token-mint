@@ -15,7 +15,7 @@ console.log(
 
 // Subtitute in your token mint account from create-token-mint.ts
 const tokenMintAccount = new PublicKey(
-    "EYFuC4h6JF1zHKrywzdat4YwsrEkQo9osLDQ4u3EwL3N"
+    "8Ash1GCo74a52FpUJ7FcBcZ4iAPWo8PGmDni26K6X6nU"
 );
 
 // Here we are making an associated token account for our own address, but we can

@@ -17,7 +17,7 @@ console.log(
 const recipient = new PublicKey("7TWtg24wvoV8oBi4QhevnBYy6Yjw9c77qdeMuZiZPtZv");
 
 // Subtitute in your token mint account
-const tokenMintAccount = new PublicKey("EYFuC4h6JF1zHKrywzdat4YwsrEkQo9osLDQ4u3EwL3N");
+const tokenMintAccount = new PublicKey("8Ash1GCo74a52FpUJ7FcBcZ4iAPWo8PGmDni26K6X6nU");
 
 // Our token has two decimal places
 const MINOR_UNITS_PER_MAJOR_UNITS = Math.pow(10, 2);
